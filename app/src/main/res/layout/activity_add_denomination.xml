@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.AddDenomination">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp34"
+        android:fontFamily="@font/cabin"
+        android:text="@string/enter_denomination_value"
+        android:textSize="@dimen/sp24"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/denomination_value"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/white"
+        android:hint="0"
+        android:inputType="number"
+        android:textSize="@dimen/sp50"/>
+
+    <TextView
+        android:id="@+id/add_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/cabin"
+        android:textSize="@dimen/sp20"
+        android:background="@color/colorPrimary"
+        android:text="@string/add"
+        android:textAlignment="center"
+        android:padding="@dimen/dp12"
+        android:layout_margin="@dimen/dp16"/>
+
+</RelativeLayout>

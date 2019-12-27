@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp220">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp220"
+        android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/item_rupee_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp18"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:drawableStart="@drawable/rupee_symbol"
+        android:text="100"
+        android:fontFamily="@font/cabin"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_delete_image"
+        android:contentDescription="@string/content_description"
+        android:layout_alignParentEnd="true"
+        android:layout_width="@dimen/dp32"
+        android:layout_height="@dimen/dp32"
+        android:src="@drawable/delet_icon"/>
+
+</RelativeLayout>

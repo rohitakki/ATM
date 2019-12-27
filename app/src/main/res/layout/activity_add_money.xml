@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddMoney">
+
+    <TextView
+        android:id="@+id/add_money_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp34"
+        android:fontFamily="@font/cabin"
+        android:text="@string/add_money_to_atm"
+        android:textSize="@dimen/sp24"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <GridView
+        android:layout_marginTop="@dimen/dp24"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:horizontalSpacing="@dimen/dp8"
+        android:verticalSpacing="@dimen/dp8"
+        android:id="@+id/add_money_grid_view"
+        android:numColumns="3"/>
+
+    <TextView
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/cabin"
+        android:textSize="@dimen/sp20"
+        android:background="@color/colorPrimary"
+        android:text="@string/add"
+        android:textAlignment="center"
+        android:padding="@dimen/dp12"
+        android:layout_margin="@dimen/dp16"/>
+
+</LinearLayout>

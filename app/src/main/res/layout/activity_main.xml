@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/atm_welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp34"
+        android:fontFamily="@font/cabin"
+        android:text="@string/welcome_to_my_atm"
+        android:textSize="@dimen/sp24"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_below="@id/atm_welcome_text"
+        android:id="@+id/current_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:fontFamily="@font/cabin"
+        android:drawableTint="@color/black"
+        android:drawableStart="@drawable/rupee_symbol"
+        android:padding="@dimen/dp16"
+        android:text=""
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp34"
+        android:layout_below="@id/current_balance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp150"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/atm_add_cash"
+                android:text="@string/add_cash"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/cabin"
+                android:textSize="@dimen/sp20"
+                android:layout_margin="@dimen/dp8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/atm_withdraw_cash"
+                android:text="@string/withdraw_cash"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/cabin"
+                android:textSize="@dimen/sp20"
+                android:layout_margin="@dimen/dp8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp150"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/add_new_denomination"
+                android:text="@string/add_new_denomination"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/cabin"
+                android:textSize="@dimen/sp20"
+                android:layout_margin="@dimen/dp8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/invalidate_denomination"
+                android:text="@string/invalidate_a_denomination"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/cabin"
+                android:textSize="@dimen/sp20"
+                android:layout_margin="@dimen/dp8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
