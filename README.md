@@ -6,7 +6,7 @@
 3. Invalidate a denomination
 4. Add a new denomination.
 
-### To download click [Download ATM App](https://github.com/rohitakki/ATM/blob/master/app/app-debug.apk) and install it on your any android device running Android 6 and above.
+### To download click [Download ATM App](https://github.com/rohitakki/ATM/master/app/app-debug.apk) and install it on your any android device running Android 6 and above.
 
 
 ### If you want to see the models click [Models](https://github.com/rohitakki/ATM/tree/master/app/src/main/java/com/rohit/atm/model)
