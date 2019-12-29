@@ -1,5 +1,6 @@
-# ATM
-### This is a simple ATM app. It has following features-
+# This is a simple ATM App 
+
+### It has following features-
 1. Add Cash to ATM
 2. Withdraew Cash.
 3. Invalidate a denomination
