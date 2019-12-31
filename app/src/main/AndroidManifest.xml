@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.InvalidateDenomination"></activity>
+        <activity android:name=".activity.CheckBalance"></activity>
+        <activity android:name=".activity.InvalidateDenomination" />
         <activity android:name=".activity.WithdrawCash" />
         <activity android:name=".activity.AddDenomination" />
         <activity android:name=".activity.AddMoney" />

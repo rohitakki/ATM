@@ -14,4 +14,6 @@
     <string name="collect_cash">Please collect you cash</string>
     <string name="no_money">Sorry No money</string>
     <string name="invalidate_denomination">Invalidate Denomination</string>
+    <string name="no_money_denomination">There is no money in ATM.</string>
+    <string name="check_balance_amp_denominations"><![CDATA[Check Balance & Denominations]]></string>
 </resources>

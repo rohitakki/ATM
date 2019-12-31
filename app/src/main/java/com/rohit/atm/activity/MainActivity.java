@@ -68,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, InvalidateDenomination.class));
             }
         });
+
+        TextView checkDenominations = findViewById(R.id.check_balance_and_denomination);
+        checkDenominations.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CheckBalance.class));
+            }
+        });
     }
 
     @Override
